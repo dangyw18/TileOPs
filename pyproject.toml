@@ -28,6 +28,9 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
+[project.entry-points."tileops.backends"]
+ascend = "tileops._kernels.moe.ascend.backend"
+
 [project.urls]
 Homepage = "https://github.com/tile-ai/TileOPs"
 Repository = "https://github.com/tile-ai/TileOPs"
